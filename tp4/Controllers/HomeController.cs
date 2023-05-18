@@ -15,11 +15,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        ViewBag.listaPaises=info.ListarPaises();
+        return View("index");
     }
 
-    public IActionResult Privacy()
+    public IActionResult DetallePais(string pais)
     {
+        ViewBag.pais=DetallePais(pais);
         return View();
     }
 

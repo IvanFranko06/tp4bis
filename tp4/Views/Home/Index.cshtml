@@ -3,3 +3,9 @@
 }
 
 <h1>pagina web de paises</h1>
+@foreach (Pais item in ViewBag.listaPaises)
+{
+    <a href='@Url.Action("DetallePais" , new {Pais=item.Nombre})'>
+     <img src="imagenes/@item.imgBandera" style="width:20%;">
+        </a>
+}

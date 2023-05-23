@@ -22,7 +22,7 @@ public class HomeController : Controller
     public IActionResult DetallePais(string pais)
     {
         ViewBag.pais=DetallePais(pais);
-        return View();
+        return View("detallePais.cshtml");
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

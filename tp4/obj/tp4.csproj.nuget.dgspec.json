@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\programacion\\tp4\\tp4.csproj": {}
+    "C:\\Users\\47346333\\Desktop\\tp4bis\\tp4\\tp4.csproj": {}
   },
   "projects": {
-    "Z:\\programacion\\tp4\\tp4.csproj": {
+    "C:\\Users\\47346333\\Desktop\\tp4bis\\tp4\\tp4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\programacion\\tp4\\tp4.csproj",
+        "projectUniqueName": "C:\\Users\\47346333\\Desktop\\tp4bis\\tp4\\tp4.csproj",
         "projectName": "tp4",
-        "projectPath": "Z:\\programacion\\tp4\\tp4.csproj",
+        "projectPath": "C:\\Users\\47346333\\Desktop\\tp4bis\\tp4\\tp4.csproj",
         "packagesPath": "C:\\Users\\47346333\\.nuget\\packages\\",
-        "outputPath": "Z:\\programacion\\tp4\\obj\\",
+        "outputPath": "C:\\Users\\47346333\\Desktop\\tp4bis\\tp4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

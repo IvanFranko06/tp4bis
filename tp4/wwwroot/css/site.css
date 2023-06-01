@@ -19,4 +19,22 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: olive;
+}
+
+footer{
+  background-color: white;
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+img{
+  border: peru 5px solid;
+  border-radius: 60px;
 }

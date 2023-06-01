@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "detalle del pais";
+}
+<h1>@ViewData["Title"]</h1>
+
+<img src="/imagenes/@ViewBag.paisBuscado.imgBandera">
+<h3>Pais: @ViewBag.paisBuscado.Nombre</h1> <br>
+<h3>la poblacion del pais es de: @ViewBag.paisBuscado.Poblacion habitantes</h3> <br>
+<h3>El atractivo turistico del pais es: @ViewBag.paisBuscado.AtractivosTuristicos</h3>
+<h3>El pais se independizo en @ViewBag.paisBuscado.FechaIndependencia</h3>
